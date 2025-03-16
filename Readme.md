@@ -13,5 +13,5 @@ export LD_PRELOAD=/opt/apps/classin/lib/libClassFpsUnlock.so
 /opt/apps/classin/ClassIn
 ```
 # Supported Environmental Varibles
-`QT_RATE_FACTOR`: Accelerate to custom accelerate rate. If not set by default it's 10x.
+`QT_RATE_FACTOR`: Accelerate to custom accelerate rate. If not set by default it's 10x.  
 `QT_FRAME_UNLOCK_DEBUG`: Print some debug information.
