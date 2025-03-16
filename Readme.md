@@ -8,7 +8,7 @@ So we hook some functions in QT to partly accelerate the rendering process, and 
 git clone https://github.com/kde-yyds/classin-linux-fps-unlock
 cd classin-linux-fps-unlock
 gcc -shared -fPIC hook.c -o libClassinFpsUnlock.so -ldl
-sudo cp -r libClassFpsUnlock.so /opt/apps/classin/lib/libClassinFpsUnlock.so
+sudo cp -r libClassinFpsUnlock.so /opt/apps/classin/lib/libClassinFpsUnlock.so
 export LD_PRELOAD=/opt/apps/classin/lib/libClassinFpsUnlock.so
 /opt/apps/classin/ClassIn
 ```
